@@ -1,0 +1,47 @@
+https://www.researchgate.net/publication/274080402_Formula_for_success_Multilevel_modelling_of_Formula_One_Driver_and_Constructor_performance_1950-2014
+
+->uses random coefficient models
+->Takes points scored by a driver,team ,team-year
+->Also takes into account the varying of the attributes by year,Track type,weather condition
+->sees how teams and drivers have changed over the years
+->race result can be nested within a driver, a team-year, and a team.
+->complex Multilevel model.
+
+
+
+Multilevel logistic regression-
+Multilevel logistic regression models allow one to account for the clustering of subjects within clusters of higher‐level units when estimating the effect of subject and cluster characteristics on subject outcomes.
+
+
+
+
+What we want to do different-
+->the paper tries to compare all drivers from the year 1971 to current which is not a fair comparison-
+    - Some drivers could have outperformed themselves due to amazing rivalry (Prost Senna) 
+      and if there would have been other drivers maybe it wouldnt be the same
+    - Some drivers could just be more comfortable in a particular car and would have not achieved what they did if they had a slightly different car.
+      and as the car level can be taken into account but car comfort cannot
+    - The cars have also changed a huge amount with every new set of rules that comes out every decade and completely changes the sport.
+->It would be better if the predictions could be done decade wise(or some time period wise when there was a massive change in the car)
+    this would also solve the problem of different generation and rivalry coming into picture.
+->We also suggest that predictions be made according to weather and circuits saying who is the best driver for the job.
+    be it driving in the rain or on a particular circuit as these predictions will have more meaning.
+->Taking all races and all seasons of a driver would also mean reducing the value of few important events like when the driver would have completely outperformed himself under pressure
+  or the opposite where he would have completely destroyed an easy race.
+  and these are the factors that should have more meaning than just simple race finishes where the driver just did his normal job.
+  so taking everything together would smooth it all out which is not good.
+->Taking separate timelines and circuits and conditions would add more weight to these races and give a more accurate representation of the driver.
+
+
+https://www.sciencedirect.com/science/article/pii/S0313592609500355
+
+->Eichenberger and Stadelmann (2009) consider finishing position as the dependent variable, control for team-years using dummy variables 
+in a standard OLS-estimated single-level regression, and 
+also control for a range of other variables relating to both drivers and the racing conditions
+->
+
+https://www.degruyter.com/view/journals/jqas/10/2/article-p261.xml?tab_body=contentReferences-78538
+
+->Phillips argues that this unexpected result is caused by the use of finishing position as the dependent variable, and prefers the use of (adjusted) points scored as an appropriate measure,
+ since he argues this is a better measure of achievement in F1;
+->rankings are based on drivers’ 3-year (or 5-year) peak performance (rather than their whole career).
